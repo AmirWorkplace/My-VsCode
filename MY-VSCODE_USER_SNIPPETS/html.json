@@ -1,0 +1,43 @@
+{
+  /*
+    Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and
+  description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  same ids are connected.
+  Example:
+  "Print to console": {
+  	"prefix": "log",
+  	"body": [
+  		"console.log('$1');",
+  		"$2"
+  	],
+  	"description": "Log output to console"
+  } */
+
+  "Print to php": {
+    "prefix": "php",
+    "body": ["<?php $1 ?>"],
+    "description": "Nothing output to console"
+  },
+  "Print to ion_icons_kit": {
+    "prefix": "ion_icons_kit",
+    "body": [
+      "<script type='module' src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script><script nomodule src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script>"
+    ],
+    "description": "HTML Ion Icons kit!"
+  },
+  "Print to html_with_basic_plug_in": {
+    "prefix": "html_with_basic_plug_in",
+    "body": [
+      "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8' /><meta http-equiv='X-UA-Compatible' content='IE=edge' /><meta name='viewport' content='width=device-width, initial-scale=1.0' /><title>$1</title><link rel='stylesheet' href='CSS/style.css' /></head><body>$2<!-- Js Plug In --><script src='./JavaScript/main.js'></script><!-- Ion Icon --><script type='module' src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script><script nomodule src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script><!-- Font Awosome Kit --><script src='https://kit.fontawesome.com/625708b356.js 'crossorigin='anonymous'></script><!-- Box icon --><script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js'></script></body></html>"
+    ],
+    "description": "HTML Basic Plug in Included"
+  },
+  "Print to html_with_basic_plug_in_with_animations_bg": {
+    "prefix": "html_with_basic_plug_in_with_animations_bg",
+    "body": [
+      "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8' /><meta http-equiv='X-UA-Compatible' content='IE=edge' /><meta name='viewport' content='width=device-width, initial-scale=1.0' /><title>$1</title><link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'/><link rel='stylesheet' href='CSS/style.css' /></head><body><section class='bodyAnimation'><!-- bubbles-container --><div class='bubbles-container'><div class='bubbles'><span style='--i: 11; --clrs: #95ff00'></span><span style='--i: 12; --clrs: #2f00ff'></span><span style='--i: 24; --clrs: #dd00ff'></span><span style='--i: 10; --clrs: #ff7b00'></span><span style='--i: 14; --clrs: #ff0000'></span><span style='--i: 23; --clrs: #00ffc3'></span><span style='--i: 18; --clrs: #00ff7b'></span><span style='--i: 16; --clrs: #2600ff'></span><span style='--i: 19; --clrs: #944b77'></span><span style='--i: 15; --clrs: #bd42af'></span><span style='--i: 22; --clrs: #afa399'></span><span style='--i: 25; --clrs: #00ffc8'></span><span style='--i: 18; --clrs: #b35a97'></span><span style='--i: 21; --clrs: #cd8b4d'></span><span style='--i: 15; --clrs: #37ff00'></span><span style='--i: 13; --clrs: #3b5e9f'></span><span style='--i: 26; --clrs: #00ff51'></span><span style='--i: 17; --clrs: #002b7a'></span><span style='--i: 13; --clrs: #9f3b9f'></span><span style='--i: 19; --clrs: #0eb74a'></span><span style='--i: 22; --clrs: #759f3b'></span><span style='--i: 27; --clrs: #9f9f3b'></span><span style='--i: 20; --clrs: #3b5e9f'></span><span style='--i: 11; --clrs: #9f3b3b'></span><span style='--i: 19; --clrs: #c9dcff'></span><span style='--i: 26; --clrs: #9f3b3b'></span><span style='--i: 16; --clrs: #7f3b9f'></span><span style='--i: 22; --clrs: #9f923b'></span><span style='--i: 16; --clrs: #669f3b'></span><span style='--i: 19; --clrs: #3b9f59'></span><span style='--i: 28; --clrs: #7f3b9f'></span><span style='--i: 20; --clrs: #009dff'></span><span style='--i: 10; --clrs: #3b9f72'></span><span style='--i: 15; --clrs: #9f903b'></span><span style='--i: 22; --clrs: #9f3d3b'></span><span style='--i: 18; --clrs: #5b3b9f'></span><span style='--i: 27; --clrs: #3b889f'></span><span style='--i: 27; --clrs: #3b9f5e'></span><span style='--i: 11; --clrs: #749f3b'></span><span style='--i: 19; --clrs: #e1ff00'></span><span style='--i: 26; --clrs: #0059ff'></span><span style='--i: 16; --clrs: #00f842'></span><span style='--i: 22; --clrs: #a800f6'></span><span style='--i: 16; --clrs: #00f2ff'></span><span style='--i: 19; --clrs: #ee009b'></span><span style='--i: 28; --clrs: #9f3b47'></span><span style='--i: 20; --clrs: #00d351'></span><span style='--i: 10; --clrs: #c72092'></span><span style='--i: 15; --clrs: #004fe1'></span><span style='--i: 22; --clrs: #bfff00'></span><span style='--i: 18; --clrs: #a6ff00'></span></div></div></section>   <!-- Main Body Part Worked --><div class='Main-cntainer-body'> <div class='main-container'><!-- Now you can start your project with a good background Animation From here. The Container Is your Starting Main Body --><div class='container'><!--  Start Now !  --><h1>Demo :</h1></div></div></div><!-- Js Plug In --><script src='./JavaScript/main.js'></script><!-- Ion Icon --><script type='module' src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script><script nomodulesrc='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script><!-- Font Awosome Kit --><script src='https://kit.fontawesome.com/625708b356.js' crossorigin='anonymous'></script><!-- Box icon --></body></html>"
+    ],
+    "description": "HTML with_basic_plug_in_with_animations_bg"
+  }
+}
